@@ -1,0 +1,4 @@
+connected_username = "email@example.com"
+connected_password = "12345"
+connected_region = "north_america"
+influxdb_hostname = "localhost"

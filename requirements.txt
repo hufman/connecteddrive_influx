@@ -1,0 +1,2 @@
+bimmer-connected==0.7.7
+influxdb==5.3.0
