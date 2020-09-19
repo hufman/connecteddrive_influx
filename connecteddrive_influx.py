@@ -36,8 +36,12 @@ def status_attr(attr_name: str) -> bool:
 	        attr_name.startswith('door') or
 	        attr_name.startswith('window') or
 	        attr_name.startswith('hood') or
+	        attr_name.endswith('roof') or
 	        attr_name.startswith('trunk') or
-	        attr_name.startswith('remaining')
+	        attr_name.startswith('remaining') or
+	        attr_name.startswith('max') or
+	        attr_name.startswith('charging') or
+	        attr_name.endswith('Status')
 	)
 
 
