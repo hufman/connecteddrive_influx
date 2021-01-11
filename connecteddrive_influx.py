@@ -16,6 +16,8 @@ import localsettings as settings
 
 def convert_attributes(attributes: Dict[str, Any]) -> Dict[str, Any]:
 	converted = {}
+	if 'STATUS' in attributes:
+		attributes = attributes['STATUS']
 	for k, v in attributes.items():
 		if k == "position":
 			converted.update({
